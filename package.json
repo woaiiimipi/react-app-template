@@ -1,0 +1,41 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production",
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-hot-loader": "^4.12.15"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@hot-loader/react-dom": "^16.10.2+4.12.15",
+    "webpack-dev-server": "^3.9.0",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "sass-loader": "^8.0.0",
+    "node-sass": "^4.13.0",
+    "file-loader": "^4.2.0",
+    "url-loader": "^2.2.0",
+    "prettier": "^1.18.2"
+  }
+}
